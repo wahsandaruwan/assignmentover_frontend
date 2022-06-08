@@ -1,0 +1,39 @@
+/* -----Inquiry form----- */
+.inquiry-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 30px;
+  background-color: #8adbe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Text inputs */
+.inquiry-form .inputbox-custom,
+.inquiry-form .textarea-custom {
+  width: 100%;
+  margin: 8px !important;
+}
+
+/* Main Buttons */
+.inquiry-form .main-button-custom {
+  width: 100%;
+  margin: 8px !important;
+  padding: 15px 20px !important;
+}
+
+.inquiry-form .main-button-custom:hover {
+  background-color: #778ca3 !important;
+}
+
+/* Headings */
+.inquiry-form .heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #303952;
+  margin-bottom: 10px;
+}
