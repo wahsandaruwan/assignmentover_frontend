@@ -1,5 +1,5 @@
 // Third-party components & modules
-import { PropTypes } from "prop-types";
+import { PropTypes } from "prop-types"
 
 const TextArea = ({ inputValue, inputPlaceholder, changeFunc }) => {
   return (
@@ -12,8 +12,8 @@ const TextArea = ({ inputValue, inputPlaceholder, changeFunc }) => {
         onChange={changeFunc}
       ></textarea>
     </>
-  );
-};
+  )
+}
 
 // Basic styling
 const basicStyles = {
@@ -28,20 +28,20 @@ const basicStyles = {
   borderRadius: "5px",
   resize: "none",
   transition: "all 0.3s ease-in-out",
-};
+}
 
 // Type checking
 TextArea.propTypes = {
   inputValue: PropTypes.string,
   inputPlaceholder: PropTypes.string.isRequired,
   changeFunc: PropTypes.func.isRequired,
-};
+}
 
 // Default values
 TextArea.defaultProps = {
   inputType: "text",
   inputPlaceholder: "Enter...",
   changeFunc: () => console.log("Typing"),
-};
+}
 
-export default TextArea;
+export default TextArea

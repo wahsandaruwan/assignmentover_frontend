@@ -1,5 +1,5 @@
 // Third-party components & modules
-import { PropTypes } from "prop-types";
+import { PropTypes } from "prop-types"
 
 const MainButton = ({ buttonText, clickFunc }) => {
   return (
@@ -12,8 +12,8 @@ const MainButton = ({ buttonText, clickFunc }) => {
         {buttonText}
       </div>
     </>
-  );
-};
+  )
+}
 
 // Basic styling
 const basicStyles = {
@@ -29,7 +29,7 @@ const basicStyles = {
   borderRadius: "5px",
   cursor: "pointer",
   transition: "all 0.3s ease-in-out",
-};
+}
 
 // Type checking
 MainButton.propTypes = {
@@ -38,12 +38,12 @@ MainButton.propTypes = {
     PropTypes.object.isRequired,
   ]),
   clickFunc: PropTypes.func.isRequired,
-};
+}
 
 // Default values
 MainButton.defaultProps = {
   buttonText: "Click Me",
   clickFunc: () => console.log("Button Clicked!"),
-};
+}
 
-export default MainButton;
+export default MainButton

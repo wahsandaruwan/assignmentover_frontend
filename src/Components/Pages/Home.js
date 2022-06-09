@@ -1,11 +1,14 @@
-import InquiryForm from "../Sections/InquiryForm";
+// Custom components & modules
+import InquiryForm from "../Sections/InquiryForm"
 
 const Home = () => {
   return (
     <>
-      <InquiryForm />
+      <div className="home">
+        <InquiryForm />
+      </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

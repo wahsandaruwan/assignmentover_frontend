@@ -8,3 +8,29 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* ----------------Common---------------- */
+/* -----Body----- */
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* -----Links----- */
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #303952;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ----------------Home page---------------- */
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ebeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,11 +1,10 @@
 // Custom components & modules
-import React from "react";
-import InputBox from "../Elements/InputBox";
-import MainButton from "../Elements/MainButton";
-import TextArea from "../Elements/TextArea";
+import InputBox from "../Elements/InputBox"
+import MainButton from "../Elements/MainButton"
+import TextArea from "../Elements/TextArea"
 
 // Custom styling
-import "./Styles/InquiryFormStyles.css";
+import "./Styles/InquiryFormStyles.css"
 
 const InquiryForm = () => {
   return (
@@ -21,7 +20,7 @@ const InquiryForm = () => {
         <MainButton buttonText="Submit" />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default InquiryForm;
+export default InquiryForm

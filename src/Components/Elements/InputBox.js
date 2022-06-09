@@ -1,5 +1,5 @@
 // Third-party components & modules
-import { PropTypes } from "prop-types";
+import { PropTypes } from "prop-types"
 
 const InputBox = ({ inputType, inputValue, inputPlaceholder, changeFunc }) => {
   return (
@@ -13,8 +13,8 @@ const InputBox = ({ inputType, inputValue, inputPlaceholder, changeFunc }) => {
         onChange={changeFunc}
       />
     </>
-  );
-};
+  )
+}
 
 // Basic styling
 const basicStyles = {
@@ -27,7 +27,7 @@ const basicStyles = {
   border: "none",
   borderRadius: "5px",
   transition: "all 0.3s ease-in-out",
-};
+}
 
 // Type checking
 InputBox.propTypes = {
@@ -35,13 +35,13 @@ InputBox.propTypes = {
   inputValue: PropTypes.string,
   inputPlaceholder: PropTypes.string.isRequired,
   changeFunc: PropTypes.func.isRequired,
-};
+}
 
 // Default values
 InputBox.defaultProps = {
   inputType: "text",
   inputPlaceholder: "Enter...",
   changeFunc: () => console.log("Typing"),
-};
+}
 
-export default InputBox;
+export default InputBox

@@ -1,0 +1,43 @@
+/* -----Navigation bar----- */
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fcb646;
+  padding: 15px;
+}
+
+/* Logo */
+.nav-bar .logo {
+  max-width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar .logo > img {
+  width: 100%;
+}
+
+/* Menu */
+.nav-bar .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar .menu > li {
+  list-style: none;
+  margin: 5px 10px;
+}
+
+.nav-bar .menu > li > a {
+  padding: 8px 12px 0px 12px;
+}
+
+.nav-bar .menu > li > a:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #303952;
+}
