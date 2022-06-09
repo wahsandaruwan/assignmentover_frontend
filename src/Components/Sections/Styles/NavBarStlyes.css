@@ -34,15 +34,15 @@
 }
 
 .nav-bar .menu > li > a {
-  padding: 8px 12px 0px 12px;
+  padding: 5px 10px 0px 10px;
 }
 
 .nav-bar .menu > li > a:hover {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   border-bottom: 2px solid #303952;
 }
 
 .nav-bar .menu > li > a.active {
-  padding-bottom: 8px;
-  border-bottom: 2px solid #303952;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffffff;
 }
