@@ -6,7 +6,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #fcd182;
-  padding: 15px;
+  padding: 18px;
 }
 
 /* Logo */
@@ -45,4 +45,9 @@
 .nav-bar .menu > li > a.active {
   padding-bottom: 5px;
   border-bottom: 2px solid #ffffff;
+}
+
+.nav-bar .menu > li,
+.nav-bar .menu > li .main-button-custom {
+  margin-right: 0 !important;
 }
