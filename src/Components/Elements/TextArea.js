@@ -19,7 +19,7 @@ const TextArea = ({ inputValue, inputPlaceholder, changeFunc }) => {
 const basicStyles = {
   backgroundColor: "#ffffff",
   minWidth: "200px",
-  height: "120px",
+  height: "80px",
   padding: "12px",
   margin: "5px",
   fontSize: "0.9rem",
