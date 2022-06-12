@@ -2,6 +2,7 @@
 .inquiry-form {
   width: 100%;
   max-width: 500px;
+  margin: 0 30px;
   padding: 20px 30px;
   background-color: #faab44;
   display: flex;

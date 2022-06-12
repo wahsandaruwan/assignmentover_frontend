@@ -14,13 +14,15 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #fcd182;
 }
 
+/* -----Page----- */
 .page {
   width: 100%;
+  max-width: 1400px;
   min-height: 100vh;
-  background-color: #fcd182;
+  margin: 0 auto;
 }
 
 /* -----Links----- */
@@ -34,12 +36,15 @@ a {
 /* ----------------Home page---------------- */
 .home {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
+/* -----Images----- */
 .home .images {
-  max-width: 600px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 30px;
 }
 
 .home .images > svg {
@@ -51,13 +56,31 @@ a {
 .about {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  padding: 100px 30px;
 }
 
+/* -----Heading----- */
 .about .heading {
   font-size: 3rem;
   font-weight: 700;
   color: #303952;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+/* -----Grid----- */
+.about .about-info-grid {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about .about-info-grid .span-column {
+  grid-column: span 2;
+}
+
+.about .about-info-grid .highlight {
+  background-color: #faab44;
 }
