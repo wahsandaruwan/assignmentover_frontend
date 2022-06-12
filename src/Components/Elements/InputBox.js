@@ -2,18 +2,18 @@
 import { PropTypes } from "prop-types"
 
 const InputBox = ({ inputType, inputValue, inputPlaceholder, changeFunc }) => {
-  return (
-    <>
-      <input
-        className="inputbox-custom"
-        style={basicStyles}
-        type={inputType}
-        value={inputValue}
-        placeholder={inputPlaceholder}
-        onChange={changeFunc}
-      />
-    </>
-  )
+    return (
+      <>
+        <input
+          className="inputbox-custom"
+          style={basicStyles}
+          type={inputType}
+          value={inputValue}
+          placeholder={inputPlaceholder}
+          onChange={changeFunc}
+        />
+      </>
+    )
 }
 
 // Basic styling

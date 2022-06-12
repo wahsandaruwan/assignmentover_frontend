@@ -1,16 +1,16 @@
 // Custom components & modules
-import InputBox from "../Elements/InputBox"
-import MainButton from "../Elements/MainButton"
-import TextArea from "../Elements/TextArea"
+import InputBox from '../Elements/InputBox'
+import MainButton from '../Elements/MainButton'
+import TextArea from '../Elements/TextArea'
 
 // Custom styling
-import "./Styles/InquiryFormStyles.css"
+import './Styles/InquiryFormStyles.css'
 
 const InquiryForm = () => {
   return (
     <>
       <div className="form inquiry-form">
-        <h2 className="heading">Quick Inquiry!</h2>
+        <h2 className="sub-heading">Quick Inquiry!</h2>
         <InputBox inputType="text" inputPlaceholder="Your Name..." />
         <InputBox inputType="text" inputPlaceholder="Your Email..." />
         <InputBox inputType="text" inputPlaceholder="Your Phone Number..." />

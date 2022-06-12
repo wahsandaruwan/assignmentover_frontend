@@ -1,14 +1,16 @@
 // Custom components & modules
-import Home from "./Components/Pages/Home";
-import NavBar from "./Components/Sections/NavBar";
+import About from './Components/Pages/About'
+import Home from './Components/Pages/Home'
+import NavBar from './Components/Sections/NavBar'
 
 const App = () => {
   return (
     <>
       <NavBar />
-      <Home />
+      {/* <Home /> */}
+      <About />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
