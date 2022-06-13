@@ -14,7 +14,7 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background-color: #fcd182;
+  background-color: #ffd78c;
 }
 
 /* -----Page----- */
@@ -87,12 +87,7 @@ svg {
 }
 
 .about .about-info-grid .highlight {
-  background-color: #303952;
-}
-
-.about .about-info-grid .highlight .sub-heading,
-.about .about-info-grid .highlight .details {
-  color: #ffffff;
+  background-color: #faab44;
 }
 
 /* ----------------Services page---------------- */
@@ -100,4 +95,38 @@ svg {
   align-items: flex-start;
   flex-direction: column;
   padding: 110px 30px;
+}
+
+/* -----Tabs----- */
+.services .tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.services .tabs .main-button-custom {
+  margin: 0 10px 0 0 !important;
+}
+
+.services .tabs .main-button-custom:hover {
+  background-color: #ffffff !important;
+  color: #303952 !important;
+}
+
+.services .tabs .main-button-custom.active {
+  background-color: #ffffff !important;
+  color: #303952 !important;
+}
+
+/* -----Grid----- */
+.services .services-grid {
+  width: 100%;
+}
+
+.services .services-grid .assignments,
+.services .services-grid .projects,
+.services .services-grid .others {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
 }

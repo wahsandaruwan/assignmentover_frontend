@@ -7,7 +7,7 @@ import './Styles/AboutCardStyles.css'
 const AboutCard = ({ extraClass, subHeading, details }) => {
   return (
     <>
-      <div className={`about-card ${extraClass ? extraClass : ''}`}>
+      <div className={`about-card ${extraClass}`}>
         <h1 className="sub-heading">{subHeading}</h1>
         <div className="details">{details}</div>
       </div>
@@ -24,6 +24,7 @@ AboutCard.propTypes = {
 
 // Default values
 AboutCard.defaultProps = {
+  extraClass: '',
   subHeading: 'About Us',
   details: 'Sample Details',
 }

@@ -1,11 +1,11 @@
 // Third-party components & modules
 import { PropTypes } from 'prop-types'
 
-const MainButton = ({ buttonText, clickFunc }) => {
+const MainButton = ({ extraClass, buttonText, clickFunc }) => {
   return (
     <>
       <div
-        className="main-button-custom"
+        className={`main-button-custom ${extraClass}`}
         style={basicStyles}
         onClick={() => clickFunc()}
       >
@@ -33,6 +33,7 @@ const basicStyles = {
 
 // Type checking
 MainButton.propTypes = {
+  extraClass: PropTypes.string.isRequired,
   buttonText: PropTypes.oneOfType([
     PropTypes.string.isRequired,
     PropTypes.object.isRequired,
@@ -42,6 +43,7 @@ MainButton.propTypes = {
 
 // Default values
 MainButton.defaultProps = {
+  extraClass: '',
   buttonText: 'Click Me',
   clickFunc: () => console.log('Button Clicked!'),
 }
