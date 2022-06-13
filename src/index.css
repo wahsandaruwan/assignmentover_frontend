@@ -21,7 +21,7 @@ body {
 .page {
   display: flex;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1700px;
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -51,7 +51,7 @@ svg {
 
 /* ----------------Home page---------------- */
 .home {
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -148,5 +148,5 @@ svg {
 }
 
 .features .features-grid .common-card {
-  min-height: 190px;
+  min-height: 195px;
 }
