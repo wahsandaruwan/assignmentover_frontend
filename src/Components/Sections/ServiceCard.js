@@ -5,13 +5,11 @@ import { TiDocumentText } from 'react-icons/ti'
 // Custom styling
 import './Styles/ServiceCardStyles.css'
 
-const ServiceCard = ({ title, details }) => {
+const ServiceCard = ({ icon, title, details }) => {
   return (
     <>
       <div className="service-card">
-        <div className="icon">
-          <TiDocumentText />
-        </div>
+        <div className="icon">{icon}</div>
         <div className="title">{title}</div>
         <div className="details">{details}</div>
       </div>
@@ -21,6 +19,7 @@ const ServiceCard = ({ title, details }) => {
 
 // Type checking
 ServiceCard.propTypes = {
+  icon: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
   details: PropTypes.string.isRequired,
 }

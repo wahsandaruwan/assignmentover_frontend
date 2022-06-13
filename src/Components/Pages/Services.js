@@ -1,6 +1,9 @@
 // Inbuilt components & modules
 import { useState } from 'react'
 
+// Third-party components & modules
+import { TiDocumentText, TiChartPieOutline, TiEdit } from 'react-icons/ti'
+
 // Custom components & modules
 import MainButton from '../Elements/MainButton'
 import ServiceCard from '../Sections/ServiceCard'
@@ -40,7 +43,12 @@ const Services = () => {
                 const { id, title, details, type } = data
                 return (
                   type === 'Assignments' && (
-                    <ServiceCard key={id} title={title} details={details} />
+                    <ServiceCard
+                      key={id}
+                      icon={<TiDocumentText />}
+                      title={title}
+                      details={details}
+                    />
                   )
                 )
               })}
@@ -51,7 +59,12 @@ const Services = () => {
                 const { id, title, details, type } = data
                 return (
                   type === 'Research' && (
-                    <ServiceCard key={id} title={title} details={details} />
+                    <ServiceCard
+                      key={id}
+                      icon={<TiChartPieOutline />}
+                      title={title}
+                      details={details}
+                    />
                   )
                 )
               })}
@@ -62,7 +75,12 @@ const Services = () => {
                 const { id, title, details, type } = data
                 return (
                   type === 'Other' && (
-                    <ServiceCard key={id} title={title} details={details} />
+                    <ServiceCard
+                      key={id}
+                      icon={<TiEdit />}
+                      title={title}
+                      details={details}
+                    />
                   )
                 )
               })}
