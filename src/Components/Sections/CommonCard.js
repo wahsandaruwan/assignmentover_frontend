@@ -3,12 +3,12 @@ import { PropTypes } from 'prop-types'
 import { TiDocumentText } from 'react-icons/ti'
 
 // Custom styling
-import './Styles/ServiceCardStyles.css'
+import './Styles/CommonCardStyles.css'
 
-const ServiceCard = ({ icon, title, details }) => {
+const CommonCard = ({ icon, title, details }) => {
   return (
     <>
-      <div className="service-card">
+      <div className="common-card">
         <div className="icon">{icon}</div>
         <div className="title">{title}</div>
         <div className="details">{details}</div>
@@ -18,16 +18,17 @@ const ServiceCard = ({ icon, title, details }) => {
 }
 
 // Type checking
-ServiceCard.propTypes = {
+CommonCard.propTypes = {
   icon: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
   details: PropTypes.string.isRequired,
 }
 
 // Default values
-ServiceCard.defaultProps = {
+CommonCard.defaultProps = {
+  icon: <TiDocumentText />,
   title: 'Assignment Writing',
   details: `We perfectly do any kind of Assignment Writing.`,
 }
 
-export default ServiceCard
+export default CommonCard

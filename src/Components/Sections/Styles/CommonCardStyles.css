@@ -1,5 +1,5 @@
-/* -----Service card----- */
-.service-card {
+/* -----Common card----- */
+.common-card {
   position: relative;
   padding: 30px;
   background-color: #faab44;
@@ -11,7 +11,7 @@
 }
 
 /* Icon */
-.service-card .icon {
+.common-card .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,14 +19,14 @@
 }
 
 /* Title */
-.service-card .title {
+.common-card .title {
   font-size: 1.1rem;
   font-weight: 500;
   color: #303952;
 }
 
 /* Details */
-.service-card .details {
+.common-card .details {
   position: absolute;
   top: 0;
   left: -100%;
@@ -44,6 +44,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.service-card:hover .details {
+.common-card:hover .details {
   left: 0;
 }

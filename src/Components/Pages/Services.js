@@ -2,11 +2,11 @@
 import { useState } from 'react'
 
 // Third-party components & modules
-import { TiDocumentText, TiChartPieOutline, TiEdit } from 'react-icons/ti'
+import { TiDocumentText, TiMortarBoard, TiDocument } from 'react-icons/ti'
 
 // Custom components & modules
 import MainButton from '../Elements/MainButton'
-import ServiceCard from '../Sections/ServiceCard'
+import CommonCard from '../Sections/CommonCard'
 
 // Custom data
 import serviceData from '../../Data/Services.json'
@@ -43,7 +43,7 @@ const Services = () => {
                 const { id, title, details, type } = data
                 return (
                   type === 'Assignments' && (
-                    <ServiceCard
+                    <CommonCard
                       key={id}
                       icon={<TiDocumentText />}
                       title={title}
@@ -59,9 +59,9 @@ const Services = () => {
                 const { id, title, details, type } = data
                 return (
                   type === 'Research' && (
-                    <ServiceCard
+                    <CommonCard
                       key={id}
-                      icon={<TiChartPieOutline />}
+                      icon={<TiMortarBoard />}
                       title={title}
                       details={details}
                     />
@@ -75,9 +75,9 @@ const Services = () => {
                 const { id, title, details, type } = data
                 return (
                   type === 'Other' && (
-                    <ServiceCard
+                    <CommonCard
                       key={id}
-                      icon={<TiEdit />}
+                      icon={<TiDocument />}
                       title={title}
                       details={details}
                     />
