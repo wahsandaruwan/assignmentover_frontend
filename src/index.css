@@ -19,10 +19,19 @@ body {
 
 /* -----Page----- */
 .page {
+  display: flex;
+  justify-content: center;
   width: 100%;
   max-width: 1400px;
   min-height: 100vh;
   margin: 0 auto;
+}
+
+.page .heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #303952;
+  margin-bottom: 20px;
 }
 
 /* -----Links----- */
@@ -33,10 +42,16 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+/* -----Svg icons----- */
+svg {
+  color: #303952;
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease-in-out;
+}
+
 /* ----------------Home page---------------- */
 .home {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -54,19 +69,9 @@ a {
 
 /* ----------------About page---------------- */
 .about {
-  display: flex;
-  justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   padding: 110px 30px;
-}
-
-/* -----Heading----- */
-.about .heading {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #303952;
-  margin-bottom: 20px;
 }
 
 /* -----Grid----- */
@@ -83,4 +88,11 @@ a {
 
 .about .about-info-grid .highlight {
   background-color: #faab44;
+}
+
+/* ----------------Services page---------------- */
+.services {
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px;
 }
