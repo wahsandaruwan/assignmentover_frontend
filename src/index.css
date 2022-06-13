@@ -20,7 +20,6 @@ body {
 /* -----Page----- */
 .page {
   display: flex;
-  justify-content: center;
   width: 100%;
   max-width: 1400px;
   min-height: 100vh;
@@ -52,6 +51,7 @@ svg {
 
 /* ----------------Home page---------------- */
 .home {
+  justify-content: center;
   align-items: center;
 }
 
@@ -69,6 +69,7 @@ svg {
 
 /* ----------------About page---------------- */
 .about {
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   padding: 110px 30px;
@@ -92,6 +93,7 @@ svg {
 
 /* ----------------Services page---------------- */
 .services {
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   padding: 110px 30px;
@@ -123,9 +125,7 @@ svg {
   width: 100%;
 }
 
-.services .services-grid .assignments,
-.services .services-grid .projects,
-.services .services-grid .others {
+.services .services-grid .service-type {
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(4, 1fr);

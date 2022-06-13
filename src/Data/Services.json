@@ -1,6 +1,6 @@
 [
     {
-        "id": "as01",
+        "id": "ty01",
         "body": [
             {
                 "id": 1,
@@ -35,6 +35,121 @@
                 "title": "Edexcel Assignments",
                 "details": "We will do any kind of Edexcel Assignments under any field to help you to get a better result.",
                 "type": "Assignments"
+            }
+        ]
+    },
+
+    {
+        "id": "ty02",
+        "body": [
+            {
+                "id": 1,
+                "title": "Topic Selection",
+                "details": "We will select a perfect Research Topic for your research which can be help you to get an A+.",
+                "type": "Research"
+            },
+        
+            {
+                "id": 2,
+                "title": "Research Proposal",
+                "details": "We will write your Research Proposal with all the necessary details and higher accuracy.",
+                "type": "Research"
+            },
+        
+            {
+                "id": 3,
+                "title": "PHD / Masters Thesis",
+                "details": "We will write your PHD / Masters Thesis with all the necessary details and higher accuracy.",
+                "type": "Research"
+            },
+        
+            {
+                "id": 4,
+                "title": "Dissertation",
+                "details": "We will write a perfect Dissertation for you with the help of our qualified writers.",
+                "type": "Research"
+            },
+        
+            {
+                "id": 5,
+                "title": "SPSS Data Analysis",
+                "details": "We will perform your SPSS Data Analysis without any minor doubt with the help of our experienced data analysts.",
+                "type": "Research"
+            },
+
+            {
+                "id": 6,
+                "title": "Qualitative & Quantitative Study",
+                "details": "We will perform your Qualitative & Quantitative Studies with the help of our experienced data analysts.",
+                "type": "Research"
+            },
+
+            {
+                "id": 7,
+                "title": "Research Articles",
+                "details": "We will write a perfect Research Article for you with the help of our qualified writers.",
+                "type": "Research"
+            },
+
+            {
+                "id": 8,
+                "title": "Research Projects",
+                "details": "We will do your Research Project to get you an A with the help of our qualified team members.",
+                "type": "Research"
+            }
+        ]
+    },
+
+    {
+        "id": "ty03",
+        "body": [
+            {
+                "id": 1,
+                "title": "Case Study",
+                "details": "We will complete your Case Study with the maximum effort by ensuring an A+.",
+                "type": "Other"
+            },
+        
+            {
+                "id": 2,
+                "title": "IT / Software Projects",
+                "details": "We will complete any of your IT and Software Projects according to your requirements by ensuring the highest result.",
+                "type": "Other"
+            },
+        
+            {
+                "id": 3,
+                "title": "Term Paper",
+                "details": "We will do your Term Papers with the maximum effort by ensuring an A+.",
+                "type": "Other"
+            },
+        
+            {
+                "id": 4,
+                "title": "Essay Help",
+                "details": "We will write any kind of Essays with higher accuracy to get highest marks for you.",
+                "type": "Other"
+            },
+        
+            {
+                "id": 5,
+                "title": "Admission Essays",
+                "details": "We will write your Admission Essays by ensuring the admission 100%.",
+                "type": "Other"
+            },
+
+            {
+                "id": 6,
+                "title": "Coursework",
+                "details": "We will do any Coursework you ask and we make sure you get the exact output you want.",
+                "type": "Other"
+            },
+
+            {
+                "id": 7,
+                "title": "Powerpoint Presentations",
+                "details": "We will create an attractive Powerpoint Presentations that suits to your requirements 100%.",
+                "type": "Other"
             }
         ]
     }
