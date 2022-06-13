@@ -87,12 +87,17 @@ svg {
 }
 
 .about .about-info-grid .highlight {
-  background-color: #faab44;
+  background-color: #303952;
+}
+
+.about .about-info-grid .highlight .sub-heading,
+.about .about-info-grid .highlight .details {
+  color: #ffffff;
 }
 
 /* ----------------Services page---------------- */
 .services {
   align-items: flex-start;
   flex-direction: column;
-  padding: 30px;
+  padding: 110px 30px;
 }
