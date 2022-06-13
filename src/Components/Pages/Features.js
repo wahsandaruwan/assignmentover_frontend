@@ -11,7 +11,7 @@ const Features = () => {
   return (
     <>
       <div className="page features">
-        <h1 className="heading">Features</h1>
+        <h1 className="heading">Special Features</h1>
         <div className="features-grid">
           {featuresData.map((data) => {
             const { id, title, details } = data
