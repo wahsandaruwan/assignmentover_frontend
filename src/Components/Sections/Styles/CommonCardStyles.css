@@ -3,6 +3,10 @@
   position: relative;
   padding: 30px;
   background-color: #faab44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 10px;
   text-align: center;
   overflow: hidden;
