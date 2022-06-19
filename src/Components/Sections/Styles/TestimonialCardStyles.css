@@ -19,15 +19,28 @@
   font-weight: 600;
   color: #303952;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-/* Review */
+/* Review & user */
 .testimonial-card .review,
-.testimonial-card .rating,
 .testimonial-card .user {
   font-size: 0.9rem;
   width: 100%;
   text-align: center;
   color: #303952;
+  margin: 5px;
+}
+
+/* Rating */
+.testimonial-card .rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.testimonial-card .rating > svg {
+  width: 15px;
+  height: 15px;
 }

@@ -1,5 +1,6 @@
 // Third-party components & modules
 import { PropTypes } from 'prop-types'
+import { TiStarFullOutline } from 'react-icons/ti'
 
 // Custom styling
 import './Styles/TestimonialCardStyles.css'
@@ -10,7 +11,11 @@ const TestimonialCard = ({ extraClass, field, review, rating, user }) => {
       <div className={`testimonial-card ${extraClass}`}>
         <h1 className="field">{field}</h1>
         <div className="review">{review}</div>
-        <div className="rating">{rating}</div>
+        <div className="rating">
+          {Array.apply(null, { length: rating }).map((element, index) => {
+            return <TiStarFullOutline />
+          })}
+        </div>
         <div className="user">{user}</div>
       </div>
     </>
