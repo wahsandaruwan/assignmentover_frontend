@@ -2,7 +2,7 @@
 import { PropTypes } from 'prop-types'
 
 // Custom styling
-import './Styles/AboutCardStyles.css'
+import './Styles/TestimonialCardStyles.css'
 
 const TestimonialCard = ({ extraClass, field, review, rating, user }) => {
   return (
@@ -29,7 +29,7 @@ TestimonialCard.propTypes = {
 // Default values
 TestimonialCard.defaultProps = {
   extraClass: '',
-  field: 'Business Management',
+  field: 'Management',
   review:
     'Thank you very much for the great output with professional references.',
   rating: 5,

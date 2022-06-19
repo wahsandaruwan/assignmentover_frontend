@@ -1,0 +1,33 @@
+/* -----Testimonial card----- */
+.testimonial-card {
+  position: relative;
+  max-height: 500px;
+  padding: 30px;
+  background-color: #faab44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Field */
+.testimonial-card .field {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #303952;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Review */
+.testimonial-card .review,
+.testimonial-card .rating,
+.testimonial-card .user {
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: center;
+  color: #303952;
+}

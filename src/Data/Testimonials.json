@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "field": "Management",
+        "review": "Thank you very much for the great output with professional references.",
+        "rating": 5,
+        "user": "@janesh31"
+    },
+
+    {
+        "id": 2,
+        "field": "Economics",
+        "review": "Received the document well. I like it thank you. And thank you for making my request exactly the way I wanted.",
+        "rating": 5,
+        "user": "@shaniz2"
+    },
+
+    {
+        "id": 3,
+        "field": "Computer Science",
+        "review": "I placed my research assignment on the computer science just before 3 days. I got my 3000+ word assignment in less than 2 days with no plagiarism. Thanks a lot.",
+        "rating": 5,
+        "user": "@kasunth12"
+    },
+
+    {
+        "id": 4,
+        "field": "Business Studies",
+        "review": "I was bit doubtful when placing my order. I contacted their customer support team and they counseled me in a perfect manner.",
+        "rating": 4,
+        "user": "@nataliya23"
+    },
+
+    {
+        "id": 5,
+        "field": "Software Engineering",
+        "review": "They completed my mini project according to all the requirements I provided with a well written report.",
+        "rating": 5,
+        "user": "@rashitkan43"
+    },
+
+    {
+        "id": 6,
+        "field": "Management",
+        "review": "Their service is very professional and they always try to provide 100% plagiarism free content.",
+        "rating": 4,
+        "user": "@maheshjac7"
+    },
+
+    {
+        "id": 7,
+        "field": "Human Resources",
+        "review": "Thanks to assignmentover.com to providing me a well written case study report with 100% plagiarism free content.",
+        "rating": 5,
+        "user": "@sohiahy65"
+    },
+
+    {
+        "id": 8,
+        "field": "Mathematics",
+        "review": "I sent my discrete mathematics assignment to them and they completed it very well and I got an A for it.",
+        "rating": 5,
+        "user": "@manojkav1"
+    }
+]

@@ -32,9 +32,6 @@ const NavBar = () => {
           <li>
             <a href="">Contact Us</a>
           </li>
-          <li>
-            <MainButton buttonText="Dark" />
-          </li>
         </div>
       </div>
     </>

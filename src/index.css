@@ -150,3 +150,19 @@ svg {
 .features .features-grid .common-card {
   min-height: 195px;
 }
+
+/* ----------------Testimonial page---------------- */
+.testimonials {
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 110px 30px;
+}
+
+/* -----Grid----- */
+.testimonials .testimonials-grid {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}
