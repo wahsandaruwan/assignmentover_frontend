@@ -5,10 +5,10 @@ import { TiDocumentText } from 'react-icons/ti'
 // Custom styling
 import './Styles/CommonCardStyles.css'
 
-const CommonCard = ({ icon, title, details }) => {
+const CommonCard = ({ icon, title, details, clickFunc }) => {
   return (
     <>
-      <div className="common-card">
+      <div className="common-card" onClick={() => clickFunc()}>
         <div className="icon">{icon}</div>
         <div className="title">{title}</div>
         <div className="details">{details}</div>
@@ -22,6 +22,7 @@ CommonCard.propTypes = {
   icon: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
   details: PropTypes.string.isRequired,
+  clickFunc: PropTypes.func,
 }
 
 // Default values

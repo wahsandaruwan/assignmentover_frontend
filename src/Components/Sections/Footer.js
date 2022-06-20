@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="copyright">
           All rights reserved. | Copyright &copy; 2020 - AssignmentOver
         </div>
-        <div className="credits">Designed & Developed by WAHSANDARUWAN</div>
+        <div className="credits">Designed & Developed by wahSand</div>
       </div>
     </>
   )
