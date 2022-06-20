@@ -4,18 +4,9 @@ import { FaWhatsapp, FaEnvelopeSquare } from 'react-icons/fa'
 // Custom components & modules
 import CommonCard from '../Sections/CommonCard'
 import ContactForm from '../Sections/ContactForm'
+import { openEmailClient, openWhatsAppClient } from '../../Helpers/OpenClients'
 
 const Contact = () => {
-  // Function to open email client
-  const openEmailClient = () => {
-    window.location.href = 'mailto:info@assignmentover.com'
-  }
-
-  // Function to open whatsapp client
-  const openWhatsAppClient = () => {
-    window.open('https://wa.me/0773024723', '_blank')
-  }
-
   return (
     <>
       <div className="page contact">
