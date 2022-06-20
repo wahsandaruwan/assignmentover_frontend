@@ -19,6 +19,7 @@ body {
 
 /* -----Page----- */
 .page {
+  background-color: #ffd78c;
   display: flex;
   width: 100%;
   max-width: 1700px;
@@ -165,4 +166,16 @@ svg {
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(4, 1fr);
+}
+
+/* ----------------Testimonial page---------------- */
+.contact {
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 110px 30px;
+}
+
+.contact .inquiry-form {
+  margin: 0 !important;
 }

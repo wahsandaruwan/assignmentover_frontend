@@ -1,0 +1,19 @@
+/* -----Footer----- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: #ffd78c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Copyright & credits */
+.footer .copyright,
+.footer .credits {
+  font-size: 0.9rem;
+  color: #303952;
+}
