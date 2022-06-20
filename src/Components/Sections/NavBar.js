@@ -1,10 +1,14 @@
-// Custom components & modules
-import MainButton from '../Elements/MainButton'
+import { useState } from 'react'
+
+// Third-party components & modules
+import { Link } from 'react-router-dom'
 
 // Custom styling
 import './Styles/NavBarStlyes.css'
 
 const NavBar = () => {
+  // Menu active state
+  const [active, setActive] = useState('home')
   return (
     <>
       <div className="nav-bar">
@@ -13,24 +17,58 @@ const NavBar = () => {
         </div>
         <div className="menu">
           <li>
-            <a className="active" href="">
+            <Link
+              to="/"
+              className={active === 'home' && 'active'}
+              onClick={() => setActive('home')}
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="">About Us</a>
+            <Link
+              to="about"
+              className={active === 'about' && 'active'}
+              onClick={() => setActive('about')}
+            >
+              About Us
+            </Link>
           </li>
           <li>
-            <a href="">Our Services</a>
+            <Link
+              to="services"
+              className={active === 'services' && 'active'}
+              onClick={() => setActive('services')}
+            >
+              Our Services
+            </Link>
           </li>
           <li>
-            <a href="">Features</a>
+            <Link
+              to="features"
+              className={active === 'features' && 'active'}
+              onClick={() => setActive('features')}
+            >
+              Features
+            </Link>
           </li>
           <li>
-            <a href="">Testimonials</a>
+            <Link
+              to="testimonials"
+              className={active === 'testimonials' && 'active'}
+              onClick={() => setActive('testimonials')}
+            >
+              Testimonials
+            </Link>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <Link
+              to="contact"
+              className={active === 'contact' && 'active'}
+              onClick={() => setActive('contact')}
+            >
+              Contact Us
+            </Link>
           </li>
         </div>
       </div>

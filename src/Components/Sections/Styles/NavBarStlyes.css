@@ -44,7 +44,6 @@
 }
 
 .nav-bar .menu > li > a.active {
-  font-weight: 600;
   padding-bottom: 5px;
   border-bottom: 2px solid #ffffff;
 }

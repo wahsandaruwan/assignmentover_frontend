@@ -1,4 +1,5 @@
 // Third-party components & modules
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { FaWhatsappSquare } from 'react-icons/fa'
 
 // Custom components & modules
@@ -15,13 +16,17 @@ import { openWhatsAppClient } from './Helpers/OpenClients'
 const App = () => {
   return (
     <>
-      <NavBar />
-      {/* <Home /> */}
-      {/* <About /> */}
-      {/* <Services /> */}
-      {/* <Features /> */}
-      {/* <Testimonials /> */}
-      <Contact />
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="features" element={<Features />} />
+          <Route path="testimonials" element={<Testimonials />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
       <div className="fixed-whatsapp-btn">
         <FaWhatsappSquare onClick={() => openWhatsAppClient()} />

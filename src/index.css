@@ -53,13 +53,18 @@ svg {
 /* -----Fixed whatsapp icon----- */
 .fixed-whatsapp-btn {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  z-index: 101;
+  bottom: 30px;
+  right: 30px;
   cursor: pointer;
 }
 
 .fixed-whatsapp-btn > svg {
   color: #0cda57;
+}
+
+.fixed-whatsapp-btn > svg:hover {
+  color: #18833f;
 }
 
 /* ----------------Home page---------------- */
