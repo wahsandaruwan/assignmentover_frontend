@@ -168,10 +168,22 @@ svg {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* ----------------Testimonial page---------------- */
+/* ----------------Contact page---------------- */
 .contact {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   padding: 110px 30px;
+}
+
+/* -----Grid----- */
+.contact .contact-grid {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.contact .contact-grid .span-column {
+  grid-column: span 3;
 }
