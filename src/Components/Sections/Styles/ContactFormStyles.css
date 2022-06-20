@@ -1,0 +1,43 @@
+/* -----Contact form----- */
+.contact-form {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 30px;
+  background-color: #faab44;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contact-form .col {
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Text inputs */
+.contact-form .col .inputbox-custom,
+.contact-form .col .textarea-custom {
+  width: 100%;
+  margin: 8px !important;
+}
+
+.contact-form .col .textarea-custom {
+  height: 108px !important;
+}
+
+/* Main button */
+.contact-form .col .main-button-custom {
+  width: 100%;
+  margin: 8px !important;
+  padding: 12px 20px !important;
+}
+
+.contact-form .col .main-button-custom:hover {
+  background-color: #778ca3 !important;
+}

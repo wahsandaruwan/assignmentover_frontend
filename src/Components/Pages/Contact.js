@@ -1,11 +1,11 @@
-import InquiryForm from '../Sections/InquiryForm'
+import ContactForm from '../Sections/ContactForm'
 
 const Contact = () => {
   return (
     <>
       <div className="page contact">
         <h1 className="heading">Contact</h1>
-        <InquiryForm />
+        <ContactForm />
       </div>
     </>
   )
