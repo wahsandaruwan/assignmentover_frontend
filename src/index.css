@@ -204,3 +204,7 @@ svg {
 .contact .contact-grid .span-column {
   grid-column: span 3;
 }
+
+.contact .contact-grid .common-card{
+  cursor: pointer;
+}
