@@ -219,7 +219,7 @@ svg {
 
 /* Menu */
 .dashboard .menu {
-  background-color: #dab98f;
+  background-color: #f7c27d;
   height: 100%;
 }
 
@@ -241,7 +241,7 @@ svg {
 
 /* Search */
 .dashboard .content .search {
-  background-color: #a0825a;
+  background-color: #303952;
   padding: 15px;
 }
 
@@ -261,8 +261,12 @@ svg {
   top: 18px;
   right: 20px;
 }
-
-.dashboard > .main-button-custom:hover {
+.dashboard > .main-button-custom {
   background-color: #ffffff !important;
   color: #303952 !important;
+}
+
+.dashboard > .main-button-custom:hover {
+  background-color: #9b9999 !important;
+  color: #ffffff !important;
 }

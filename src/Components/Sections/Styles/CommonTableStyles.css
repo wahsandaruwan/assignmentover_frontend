@@ -42,10 +42,7 @@
   background-color: #794bb6 !important;
 }
 
-.common-table td .view {
-  background-color: #e237a9 !important;
-}
-
 .common-table td .main-button-custom:hover {
-  background-color: #a0825a !important;
+  background-color: #9b9999 !important;
+  color: #303952 !important;
 }

@@ -9,6 +9,7 @@ const CommonTable = () => {
         <thead>
           <tr>
             <th>No.</th>
+            <th>Date/Time</th>
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
@@ -16,7 +17,6 @@ const CommonTable = () => {
             <th>Subject</th>
             <th>Details</th>
             <th>Resource</th>
-            <th>View</th>
             <th>Complete</th>
             <th>Delete</th>
           </tr>
@@ -24,6 +24,7 @@ const CommonTable = () => {
         <tbody>
           <tr>
             <td>01</td>
+            <td>22/07/05 | 22.30</td>
             <td>3425236</td>
             <td>Kasun Perera</td>
             <td>kasun123@gmail.com</td>
@@ -36,9 +37,6 @@ const CommonTable = () => {
             </td>
             <td>
               <MainButton buttonText="Download" extraClass="down" />
-            </td>
-            <td>
-              <MainButton buttonText="View" extraClass="view" />
             </td>
             <td>
               <MainButton buttonText="Complete" extraClass="com" />
