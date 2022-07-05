@@ -2,7 +2,7 @@
 .common-table {
   border-collapse: collapse;
   margin: 25px 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   min-width: 400px;
 }
 
@@ -27,4 +27,25 @@
 
 .common-table tbody tr:last-of-type {
   border-bottom: 2px solid #303952;
+}
+
+/* Buttons */
+.common-table td .del {
+  background-color: #e02c2c !important;
+}
+
+.common-table td .com {
+  background-color: #439638 !important;
+}
+
+.common-table td .down {
+  background-color: #794bb6 !important;
+}
+
+.common-table td .view {
+  background-color: #e237a9 !important;
+}
+
+.common-table td .main-button-custom:hover {
+  background-color: #a0825a !important;
 }

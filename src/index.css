@@ -261,3 +261,8 @@ svg {
   top: 18px;
   right: 20px;
 }
+
+.dashboard > .main-button-custom:hover {
+  background-color: #ffffff !important;
+  color: #303952 !important;
+}
