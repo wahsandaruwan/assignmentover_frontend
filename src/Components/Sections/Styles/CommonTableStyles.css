@@ -1,0 +1,30 @@
+/* -----Common table----- */
+.common-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1rem;
+  min-width: 400px;
+}
+
+.common-table thead tr {
+  background-color: #303952;
+  color: #ffffff;
+  text-align: left;
+}
+
+.common-table thead tr th {
+  font-weight: 500;
+}
+
+.common-table th,
+.common-table td {
+  padding: 12px 15px;
+}
+
+.common-table tbody tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.common-table tbody tr:last-of-type {
+  border-bottom: 2px solid #303952;
+}

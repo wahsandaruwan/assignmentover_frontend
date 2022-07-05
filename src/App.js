@@ -12,11 +12,12 @@ import Testimonials from './Components/Pages/Testimonials'
 import Footer from './Components/Sections/Footer'
 import NavBar from './Components/Sections/NavBar'
 import { openWhatsAppClient } from './Helpers/OpenClients'
+import Dashboard from './Components/Pages/Dashboard'
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,7 +28,8 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
+      <Footer /> */}
+      <Dashboard />
       <div className="fixed-whatsapp-btn">
         <FaWhatsappSquare onClick={() => openWhatsAppClient()} />
       </div>
