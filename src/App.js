@@ -13,6 +13,7 @@ import Footer from './Components/Sections/Footer'
 import NavBar from './Components/Sections/NavBar'
 import { openWhatsAppClient } from './Helpers/OpenClients'
 import Dashboard from './Components/Pages/Dashboard'
+import Login from './Components/Pages/Login'
 
 const App = () => {
   return (
@@ -29,7 +30,8 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       <Footer /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Login />
       <div className="fixed-whatsapp-btn">
         <FaWhatsappSquare onClick={() => openWhatsAppClient()} />
       </div>

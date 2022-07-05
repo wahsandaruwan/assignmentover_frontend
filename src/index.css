@@ -270,3 +270,49 @@ svg {
   background-color: #9b9999 !important;
   color: #ffffff !important;
 }
+
+/* ----------------Login page---------------- */
+.login {
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 30px;
+  padding: 20px 30px;
+  background-color: #faab44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Text inputs */
+.login-form .inputbox-custom,
+.login-form .textarea-custom {
+  width: 100%;
+  margin: 8px !important;
+}
+
+/* Main button */
+.login-form .main-button-custom {
+  width: 100%;
+  margin: 8px !important;
+  padding: 12px 20px !important;
+}
+
+.login-form .main-button-custom:hover {
+  background-color: #778ca3 !important;
+}
+
+/* Sub heading */
+.login-form .sub-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #303952;
+  margin-bottom: 10px;
+}
