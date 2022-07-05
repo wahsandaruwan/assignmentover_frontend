@@ -205,6 +205,59 @@ svg {
   grid-column: span 3;
 }
 
-.contact .contact-grid .common-card{
+.contact .contact-grid .common-card {
   cursor: pointer;
+}
+
+/* ----------------Dashboard page---------------- */
+.dashboard {
+  max-width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 2fr 15fr;
+}
+
+/* Menu */
+.dashboard .menu {
+  background-color: #dab98f;
+  height: 100%;
+}
+
+.dashboard .menu > li {
+  width: 100%;
+  list-style: none;
+}
+
+.dashboard .menu > li > a {
+  display: block;
+  color: #303952;
+  padding: 20px;
+}
+
+.dashboard .menu > li > a.active {
+  color: #ffffff;
+  background-color: #303952;
+}
+
+/* Search */
+.dashboard .content .search {
+  background-color: #a0825a;
+  padding: 15px;
+}
+
+.dashboard .content .search .inputbox-custom {
+  width: 40%;
+}
+
+/* Table */
+.dashboard .content .data-table {
+  max-height: 90vh;
+  overflow: auto;
+}
+
+/* Logout */
+.dashboard > .main-button-custom {
+  position: absolute;
+  top: 18px;
+  right: 20px;
 }

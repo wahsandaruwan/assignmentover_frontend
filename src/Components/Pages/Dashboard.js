@@ -1,19 +1,46 @@
+import { useState } from 'react'
+
 import InputBox from '../Elements/InputBox'
+import MainButton from '../Elements/MainButton'
 import CommonTable from '../Sections/CommonTable'
 
 const Dashboard = () => {
+  const [active, setActive] = useState('new')
+
+  const toggleMenu = (e, value) => {
+    e.preventDefault()
+    setActive(value)
+  }
   return (
     <>
       <div className="page dashboard">
         <div className="left menu">
           <li>
-            <a href="#">New Requests</a>
+            <a
+              className={`${active === 'new' && 'active'}`}
+              href="#"
+              onClick={(e) => toggleMenu(e, 'new')}
+            >
+              New Requests
+            </a>
           </li>
           <li>
-            <a href="#">Completed Requests</a>
+            <a
+              className={`${active === 'complete' && 'active'}`}
+              href="#"
+              onClick={(e) => toggleMenu(e, 'complete')}
+            >
+              Completed Requests
+            </a>
           </li>
           <li>
-            <a href="">Messages</a>
+            <a
+              className={`${active === 'message' && 'active'}`}
+              href="#"
+              onClick={(e) => toggleMenu(e, 'message')}
+            >
+              Messages
+            </a>
           </li>
         </div>
         <div className="right content">
@@ -24,6 +51,7 @@ const Dashboard = () => {
             <CommonTable />
           </div>
         </div>
+        <MainButton buttonText="Logout" />
       </div>
     </>
   )
