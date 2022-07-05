@@ -5,10 +5,10 @@ import { TiStarFullOutline } from 'react-icons/ti'
 // Custom styling
 import './Styles/TestimonialCardStyles.css'
 
-const TestimonialCard = ({ extraClass, field, review, rating, user }) => {
+const TestimonialCard = ({ extraClass, id, field, review, rating, user }) => {
   return (
     <>
-      <div className={`testimonial-card ${extraClass}`}>
+      <div key={id} className={`testimonial-card ${extraClass}`}>
         <h1 className="field">{field}</h1>
         <div className="review">{review}</div>
         <div className="rating">

@@ -23,17 +23,17 @@ const Services = () => {
           <MainButton
             buttonText="Assignment Services"
             clickFunc={() => setServiceType('Assignments')}
-            extraClass={serviceType === 'Assignments' && 'active'}
+            extraClass={serviceType === 'Assignments' ? 'active' : ''}
           />
           <MainButton
             buttonText="Research Services"
             clickFunc={() => setServiceType('Research')}
-            extraClass={serviceType === 'Research' && 'active'}
+            extraClass={serviceType === 'Research' ? 'active' : ''}
           />
           <MainButton
             buttonText="Other Services"
             clickFunc={() => setServiceType('Other')}
-            extraClass={serviceType === 'Other' && 'active'}
+            extraClass={serviceType === 'Other' ? 'active' : ''}
           />
         </div>
         <div className="services-grid">

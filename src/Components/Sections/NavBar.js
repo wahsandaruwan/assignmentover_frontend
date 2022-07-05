@@ -1,4 +1,5 @@
-import { useState } from 'react'
+// Third-party components & modules
+import { useLocation } from 'react-router-dom'
 
 // Third-party components & modules
 import { Link } from 'react-router-dom'
@@ -7,8 +8,9 @@ import { Link } from 'react-router-dom'
 import './Styles/NavBarStlyes.css'
 
 const NavBar = () => {
-  // Menu active state
-  const [active, setActive] = useState('home')
+  // Current url path
+  const location = useLocation()
+
   return (
     <>
       <div className="nav-bar">
@@ -17,19 +19,14 @@ const NavBar = () => {
         </div>
         <div className="menu">
           <li>
-            <Link
-              to="/"
-              className={active === 'home' && 'active'}
-              onClick={() => setActive('home')}
-            >
+            <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
               Home
             </Link>
           </li>
           <li>
             <Link
               to="about"
-              className={active === 'about' && 'active'}
-              onClick={() => setActive('about')}
+              className={location.pathname === '/about' ? 'active' : ''}
             >
               About Us
             </Link>
@@ -37,8 +34,7 @@ const NavBar = () => {
           <li>
             <Link
               to="services"
-              className={active === 'services' && 'active'}
-              onClick={() => setActive('services')}
+              className={location.pathname === '/services' ? 'active' : ''}
             >
               Our Services
             </Link>
@@ -46,8 +42,7 @@ const NavBar = () => {
           <li>
             <Link
               to="features"
-              className={active === 'features' && 'active'}
-              onClick={() => setActive('features')}
+              className={location.pathname === '/features' ? 'active' : ''}
             >
               Features
             </Link>
@@ -55,8 +50,7 @@ const NavBar = () => {
           <li>
             <Link
               to="testimonials"
-              className={active === 'testimonials' && 'active'}
-              onClick={() => setActive('testimonials')}
+              className={location.pathname === '/testimonials' ? 'active' : ''}
             >
               Testimonials
             </Link>
@@ -64,8 +58,7 @@ const NavBar = () => {
           <li>
             <Link
               to="contact"
-              className={active === 'contact' && 'active'}
-              onClick={() => setActive('contact')}
+              className={location.pathname === '/contact' ? 'active' : ''}
             >
               Contact Us
             </Link>

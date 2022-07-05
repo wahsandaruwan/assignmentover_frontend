@@ -1,5 +1,5 @@
 // Third-party components & modules
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { FaWhatsappSquare } from 'react-icons/fa'
 
 // Custom components & modules
@@ -16,25 +16,36 @@ import Dashboard from './Components/Pages/Dashboard'
 import Login from './Components/Pages/Login'
 
 const App = () => {
+  // Current url path
+  const location = useLocation()
+
   return (
     <>
-      {/* <BrowserRouter>
+      {location.pathname !== '/login' && location.pathname !== '/dashboard' ? (
         <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="features" element={<Features />} />
-          <Route path="testimonials" element={<Testimonials />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-      <Footer /> */}
-      {/* <Dashboard /> */}
-      <Login />
-      <div className="fixed-whatsapp-btn">
-        <FaWhatsappSquare onClick={() => openWhatsAppClient()} />
-      </div>
+      ) : (
+        ''
+      )}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="features" element={<Features />} />
+        <Route path="testimonials" element={<Testimonials />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="login" element={<Login />} />
+        <Route path="dashboard" element={<Dashboard />} />
+      </Routes>
+      {location.pathname !== '/login' && location.pathname !== '/dashboard' ? (
+        <>
+          <Footer />
+          <div className="fixed-whatsapp-btn">
+            <FaWhatsappSquare onClick={() => openWhatsAppClient()} />
+          </div>
+        </>
+      ) : (
+        ''
+      )}
     </>
   )
 }
