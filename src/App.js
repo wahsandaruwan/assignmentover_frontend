@@ -16,7 +16,7 @@ import Dashboard from './Components/Pages/Dashboard'
 import Login from './Components/Pages/Login'
 
 const App = () => {
-  // Current url path
+  // Current route information
   const location = useLocation()
 
   return (

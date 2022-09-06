@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import './Styles/NavBarStlyes.css'
 
 const NavBar = () => {
-  // Current url path
+  // Current route information
   const location = useLocation()
 
   return (

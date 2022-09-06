@@ -1,6 +1,6 @@
 import MainButton from '../Elements/MainButton'
 
-import Button from './Styles/CommonTableStyles.css'
+import './Styles/CommonTableStyles.css'
 
 const CommonTable = () => {
   return (
