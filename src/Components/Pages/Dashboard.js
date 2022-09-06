@@ -18,7 +18,7 @@ const Dashboard = () => {
           <li>
             <a
               className={`${active === 'new' && 'active'}`}
-              href="javascript:void(0);"
+              href="/#"
               onClick={(e) => toggleMenu(e, 'new')}
             >
               New Requests
@@ -27,7 +27,7 @@ const Dashboard = () => {
           <li>
             <a
               className={`${active === 'complete' && 'active'}`}
-              href="javascript:void(0);"
+              href="/#"
               onClick={(e) => toggleMenu(e, 'complete')}
             >
               Completed Requests
@@ -36,7 +36,7 @@ const Dashboard = () => {
           <li>
             <a
               className={`${active === 'message' && 'active'}`}
-              href="javascript:void(0);"
+              href="/#"
               onClick={(e) => toggleMenu(e, 'message')}
             >
               Messages
