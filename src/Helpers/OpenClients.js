@@ -5,5 +5,5 @@ exports.openEmailClient = () => {
 
 // Function to open whatsapp client
 exports.openWhatsAppClient = () => {
-  window.open('https://wa.me/0773024723', '_blank')
+  window.open('https://wa.me/+94773024723', '_blank')
 }
