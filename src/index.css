@@ -316,3 +316,30 @@ svg {
   color: #303952;
   margin-bottom: 10px;
 }
+
+/* ----------------Media queries---------------- */
+@media (max-width: 1100px) {
+  /* -----Common----- */
+  .page {
+    padding: 150px 30px;
+  }
+
+  /* -----Home page----- */
+  .home {
+    flex-direction: column;
+  }
+
+  .home .images {
+    max-width: 500px;
+    margin-bottom: 50px;
+  }
+
+  /* -----About page----- */
+  .about .about-info-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about .about-info-grid .span-column {
+    grid-column: span 1;
+  }
+}
