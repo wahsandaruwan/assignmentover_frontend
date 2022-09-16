@@ -342,4 +342,29 @@ svg {
   .about .about-info-grid .span-column {
     grid-column: span 1;
   }
+
+  /* -----Services page----- */
+  .services .services-grid .service-type {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  /* -----Services page----- */
+  .services {
+    align-items: center;
+  }
+  .services .tabs {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .services .tabs .main-button-custom {
+    width: 100%;
+    margin-bottom: 10px !important;
+  }
+
+  .services .services-grid .service-type {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
