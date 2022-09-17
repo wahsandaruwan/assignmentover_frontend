@@ -198,15 +198,11 @@ svg {
   width: 100%;
   display: grid;
   gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .contact .contact-grid .common-card {
   height: inherit;
-}
-
-.contact .contact-grid .span-column {
-  grid-column: span 2;
 }
 
 .contact .contact-grid .common-card {
@@ -356,9 +352,6 @@ svg {
   /* -----Contact page----- */
   .contact .contact-grid {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .contact .contact-grid .span-column {
-    grid-column: span 1;
   }
 
   /* -----Services, Features, Testimonial & Contact page----- */
