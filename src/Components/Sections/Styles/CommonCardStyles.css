@@ -1,6 +1,7 @@
 /* -----Common card----- */
 .common-card {
   position: relative;
+  height: 300px;
   padding: 30px;
   background-color: #faab44;
   display: flex;

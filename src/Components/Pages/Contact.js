@@ -13,18 +13,20 @@ const Contact = () => {
         <h1 className="heading">Contact Us</h1>
         <div className="contact-grid">
           <ContactForm extraClass="span-column" />
-          <CommonCard
-            icon={<FaWhatsapp />}
-            title="WhatsApp"
-            details="+94 77 302 4723"
-            clickFunc={openWhatsAppClient}
-          />
-          <CommonCard
-            icon={<FaEnvelopeSquare />}
-            title="Email"
-            details="info@assignmentover.com"
-            clickFunc={openEmailClient}
-          />
+          <div className="other-contact-methods">
+            <CommonCard
+              icon={<FaWhatsapp />}
+              title="WhatsApp"
+              details="+94 77 302 4723"
+              clickFunc={openWhatsAppClient}
+            />
+            <CommonCard
+              icon={<FaEnvelopeSquare />}
+              title="Email"
+              details="info@assignmentover.com"
+              clickFunc={openEmailClient}
+            />
+          </div>
         </div>
       </div>
     </>
