@@ -363,7 +363,7 @@ svg {
   .features .features-grid,
   .testimonials .testimonials-grid,
   .contact .contact-grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
