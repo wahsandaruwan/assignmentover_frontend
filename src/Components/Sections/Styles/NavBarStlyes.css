@@ -7,12 +7,12 @@
   justify-content: space-between;
   align-items: center;
   background-color: #ffd78c;
-  padding: 25px 40px;
+  padding: 20px 40px;
 }
 
 /* Logo */
 .nav-bar .logo {
-  max-width: 220px;
+  max-width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
