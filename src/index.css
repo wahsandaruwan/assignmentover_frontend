@@ -54,8 +54,8 @@ svg {
 .fixed-whatsapp-btn {
   position: fixed;
   z-index: 101;
-  bottom: 30px;
-  right: 30px;
+  bottom: 80px;
+  right: 15px;
   cursor: pointer;
 }
 
@@ -354,7 +354,7 @@ svg {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  /* -----Services, Features, Testimonial & Contact page----- */
+  /* -----Services, Features & Testimonial page----- */
   .services .services-grid .service-type,
   .features .features-grid,
   .testimonials .testimonials-grid {
@@ -363,10 +363,18 @@ svg {
 }
 
 @media (max-width: 600px) {
-  /* -----Services page----- */
-  .services {
-    align-items: center;
+  /* -----Common----- */
+  .page .heading {
+    width: 100%;
+    text-align: center !important;
   }
+
+  .footer .copyright,
+  .footer .credits {
+    font-size: 0.8rem !important;
+  }
+
+  /* -----Services page----- */
   .services .tabs {
     flex-direction: column;
     width: 100%;
@@ -377,9 +385,9 @@ svg {
     margin-bottom: 10px !important;
   }
 
+  /* -----Contact page----- */
   .contact .contact-grid .contact-form {
     flex-direction: column;
-    justify-content: center;
   }
 
   .contact .contact-grid .contact-form .col {
@@ -388,7 +396,7 @@ svg {
     padding: 15px;
   }
 
-  /* -----Services, Features, Testimonial page----- */
+  /* -----Services, Features, Testimonial & Contact page----- */
   .services .services-grid .service-type,
   .features .features-grid,
   .testimonials .testimonials-grid,

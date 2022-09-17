@@ -16,5 +16,6 @@
 .footer .copyright,
 .footer .credits {
   font-size: 0.9rem;
+  text-align: center;
   color: #303952;
 }
