@@ -23,8 +23,9 @@ body {
   display: flex;
   width: 100%;
   max-width: 1600px;
-  min-height: 100vh;
+  min-height: 80vh;
   margin: 0 auto;
+  padding: 30px;
 }
 
 .page .heading {
@@ -91,7 +92,6 @@ svg {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 110px 30px;
 }
 
 /* -----Grid----- */
@@ -115,7 +115,6 @@ svg {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 110px 30px;
 }
 
 /* -----Tabs----- */
@@ -155,7 +154,6 @@ svg {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 110px 30px;
 }
 
 /* -----Grid----- */
@@ -175,7 +173,6 @@ svg {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 110px 30px;
 }
 
 /* -----Grid----- */
@@ -191,7 +188,6 @@ svg {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 110px 30px;
 }
 
 /* -----Grid----- */
@@ -328,7 +324,8 @@ svg {
 @media (max-width: 1100px) {
   /* -----Common----- */
   .page {
-    padding: 160px 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 
   /* -----Home page----- */
@@ -408,7 +405,7 @@ svg {
 
 @media (max-height: 760px) {
   .page {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }

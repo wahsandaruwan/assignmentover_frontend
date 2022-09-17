@@ -1,6 +1,6 @@
 /* -----Footer----- */
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   z-index: 99;
   width: 100%;
